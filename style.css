@@ -41,6 +41,7 @@ a {
 main {
     background: rgb(255, 255, 255);
     display: flex;
+    border-radius: 25px;
 }
 .sidebar {
     margin-right: 25px;
