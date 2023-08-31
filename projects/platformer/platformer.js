@@ -44,7 +44,14 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-
+      createPlatform(1,300,175,500)
+      createPlatform(176,300,5,10000)
+      createPlatform(400,200,5,100)
+      createPlatform(400,50,5,200)
+      createPlatform(400,300,750,5)
+      createPlatform(250,550,50,5)
+      createPlatform(400,450,50,5)
+      createPlatform(400,200,100,5)
 
     
     // TODO 2
@@ -62,7 +69,9 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
+      createCannon ("left",850,10,400,400 )
+      createCannon ("left",450,1000,20,20)
+      createCannon ("bottom",450,1000,20,20)
 
 
     /////////////////////////////////////////////////

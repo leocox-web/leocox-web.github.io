@@ -1,6 +1,6 @@
 body {
     background: rgb(192, 6, 152);
-    color: rgb(45, 45, 45);
+    color: rgb(0, 0, 0);
     padding: 10px;
     font-family: arial;
 }
@@ -29,6 +29,7 @@ h1 {
 #nav-ul {
     list-style-image: none;
 }
+
 .nav-li {
     display: inline-block;
     padding: 0 10px;
@@ -67,7 +68,7 @@ h2, h3 {
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: rgb(0, 0, 0);
         }
 
         #portfolio {
@@ -83,12 +84,16 @@ h2, h3 {
         }
 
             #portfolio li:hover {
-            background: #000000;
-        }
+            background: #ffffff;
+            -webkit-text-fill-color:#000000;
+            }
+            #portfolio a:visited {
+              color: rgb(0, 0, 0);
+            }
 
         #portfolio a {
             text-decoration: none;
-            color: #454545;
+            color: #000000;
         }
                     /* responsive web design */
                     @media screen and (min-width: 120px) and (max-width: 1080px) {
