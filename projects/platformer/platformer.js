@@ -45,12 +45,12 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
       createPlatform(1,350,175,500)
-      createPlatform(176,300,5,10000)
+      createPlatform(176,300,5,10)
       createPlatform(400,200,5,100)
       createPlatform(360,50,50,300)
-      createPlatform(400,300,750,5)
+      createPlatform(400,300,750,50)
       createPlatform(250,550,50,5)
-      createPlatform(400,450,500,5)
+      createPlatform(400,450,500,50)
       createPlatform(360,300,800,50)
       createPlatform(960,700,800,5)
       createPlatform(171,290,10,1000)
@@ -58,7 +58,18 @@ $(function () {
       createPlatform(171,200,10,1000)
       createPlatform(1,50,10,1000)
       createPlatform(10,50,350,10)
-
+      createPlatform(1010,350,5,250)
+      createPlatform(900,600,115,5)
+      createPlatform(780,640,60,5)
+      createPlatform(720,600,5,500)
+      createPlatform(630,660,60,5)
+      createPlatform(480,680,60,5)
+      createPlatform(580,640,5,500)
+      createPlatform(580,500,5,45)
+      createPlatform(300,550,105,5)
+      createPlatform(400,500,5,50)
+      
+   
 
     
     // TODO 2
@@ -77,9 +88,11 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
       createCannon ("left",850,10,400,400 )
-      createCannon ("left",450,1000,20,20)
-      createCannon ("bottom",450,1000,20,20)
+      createCannon ("left",430,1005,20,20)
+      createCannon ("bottom",450,2150,20,20)
       createCannon ("left",350,1500,50,50)
+      createCannon ("bottom",600,2100,20,20)
+      createCannon ("bottom",750,2050,20,20)
 
 
     /////////////////////////////////////////////////
