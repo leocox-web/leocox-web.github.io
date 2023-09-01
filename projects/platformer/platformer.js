@@ -28,12 +28,12 @@ $(function () {
      * Comment the lines out to remove the grid
      */
 
-    // for (let i = 100; i < canvas.width; i += 100) {
-    //   createPlatform(i, canvas.height, -1, -canvas.height);
-    // }
-    // for (let i = 100; i < canvas.height; i += 100) {
-    //   createPlatform(canvas.width, i, -canvas.width, -1);
-    // }
+    for (let i = 100; i < canvas.width; i += 100) {
+      createPlatform(i, canvas.height, -1, -canvas.height);
+     }
+     for (let i = 100; i < canvas.height; i += 100) {
+       createPlatform(canvas.width, i, -canvas.width, -1);
+     }
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -45,20 +45,20 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
       createPlatform(1,350,175,200)
-      createPlatform(1760,300,5,10)
+      createPlatform(176,300,5,10)
       createPlatform(400,200,5,100)
       createPlatform(360,50,50,300)
       createPlatform(400,300,750,50)
       createPlatform(250,550,50,5)
       createPlatform(400,450,500,50)
       createPlatform(360,300,800,50)
-      createPlatform(960,700,800,5)
-      createPlatform(171,290,100,100)
+      createPlatform(1200,700,800,5)
+      createPlatform(171,290,10,100)
       createPlatform(2,250,10,1000)
-      createPlatform(171,200,10,1000)
+      createPlatform(171,200,10,400)
       createPlatform(1,50,10,1000)
       createPlatform(10,50,350,10)
-      createPlatform(1010,350,5,250)
+      createPlatform(1010,500,5,100)
       createPlatform(900,600,115,5)
       createPlatform(780,640,60,5)
       createPlatform(720,600,5,500)
@@ -66,11 +66,21 @@ $(function () {
       createPlatform(480,680,60,5)
       createPlatform(580,640,5,500)
       createPlatform(580,500,5,45)
-      createPlatform(300,550,105,5)
+      createPlatform(180,550,225,5)
       createPlatform(400,500,5,50)
       createPlatform(720,500,5,5)
       createPlatform(390,700,2,2)
       createPlatform(300,655,2,2)
+      createPlatform(171,707,50,2)
+      createPlatform(30,670,75,2)
+      createPlatform(1210,300,6,300)
+      createPlatform(1210,590,10,10)
+      createPlatform(1215,500,12,5)
+      createPlatform(1355,300,5,300)
+      createPlatform(1340,500,15,10)
+      createPlatform(1345,400,15,5)
+      createPlatform(1210,400,20,10)
+      createPlatform(1210,300,20,10)
       
    
 
@@ -82,6 +92,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
       createCollectable('database',860,400,10,0)
+      createCollectable('database',45,630,10,0)
 
 
     // TODO 3
@@ -91,7 +102,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
       createCannon ("left",850,10,400,400 )
-      createCannon ("left",430,1005,20,20)
+      createCannon ("left",430,1015,20,20)
       createCannon ("bottom",450,2150,20,20)
       createCannon ("left",350,1500,50,50)
       createCannon ("bottom",600,2100,20,20)
