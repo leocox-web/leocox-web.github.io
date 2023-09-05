@@ -48,17 +48,16 @@ $(function () {
       createPlatform(176,300,5,10)
       createPlatform(400,200,5,100)
       createPlatform(360,50,50,300)
-      createPlatform(400,300,750,50)
       createPlatform(250,550,50,5)
       createPlatform(400,450,500,50)
-      createPlatform(360,300,800,50)
+      createPlatform(900,400,100,50)
+      createPlatform(360,300,300,50)
       createPlatform(1200,700,800,5)
       createPlatform(171,290,10,100)
       createPlatform(2,250,10,1000)
       createPlatform(171,200,10,400)
       createPlatform(1,50,10,1000)
       createPlatform(10,50,350,10)
-      createPlatform(1010,500,5,100)
       createPlatform(900,600,115,5)
       createPlatform(780,640,60,5)
       createPlatform(720,600,5,500)
@@ -73,16 +72,21 @@ $(function () {
       createPlatform(300,655,2,2)
       createPlatform(171,707,50,2)
       createPlatform(30,670,75,2)
-      createPlatform(1210,300,6,300)
-      createPlatform(1210,590,10,10)
-      createPlatform(1215,500,12,5)
-      createPlatform(1355,300,5,300)
-      createPlatform(1340,500,15,10)
-      createPlatform(1345,400,15,5)
-      createPlatform(1210,400,20,10)
-      createPlatform(1210,300,20,10)
-      
-   
+      createPlatform(1200,300,5,100)
+      createPlatform(1000,300,10,100)
+      createPlatform(900,200,10,100)
+      createPlatform(800,200,1,100)
+      createPlatform(650,200,1,100)
+      createPlatform(500,100,1,200)
+      createPlatform(502,200,1,10)
+      createPlatform(400,0,100,100)
+      createPlatform(600,100,380,1)
+      createPlatform(1100,100,100,1)
+      createPlatform(1050,170,3,3)
+      createPlatform(1200,100,1,500)
+      createPlatform(1390,0,1,700)
+      createPlatform(1100,650,10,10)
+      createPlatform(900,499,300,1)
 
     
     // TODO 2
@@ -93,6 +97,8 @@ $(function () {
 
       createCollectable('database',860,400,10,0)
       createCollectable('database',45,630,10,0)
+      createCollectable('database',800,50,10,0)
+      createCollectable('database',1280,370,0,0)
 
 
     // TODO 3
@@ -102,11 +108,13 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
       createCannon ("left",850,10,400,400 )
-      createCannon ("left",430,1015,20,20)
+      createCannon ("left",430,1020,20,20)
       createCannon ("bottom",450,2150,20,20)
-      createCannon ("left",350,1500,50,50)
+      createCannon ("left",370,1500,50,50)
       createCannon ("bottom",600,2100,20,20)
       createCannon ("bottom",750,2050,20,20)
+      createCannon ("bottom",1150,500,20,20)
+      createCannon ("bottom",1300,500,20,20)
 
 
     /////////////////////////////////////////////////
