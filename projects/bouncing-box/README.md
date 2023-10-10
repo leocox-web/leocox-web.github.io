@@ -171,7 +171,7 @@ CSS allows us to hard code a starting position for the box. If we want the posit
 
     * This Function uses `jQuery` and the `box.css()` Function to change the `left` CSS property of the box. When you call the Function, simply provide a value for `newPositionX`.
 
-* Next, find the `update` function's `{code block}` (around line 73).
+* Next, find the `update` function's `{code block}` (around line 73). 
 
 **CODE:** 
 

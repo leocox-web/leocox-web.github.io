@@ -75,18 +75,19 @@ $(function () {
       createPlatform(1200,300,5,100)
       createPlatform(1000,300,10,100)
       createPlatform(900,200,10,100)
-      createPlatform(800,200,1,100)
-      createPlatform(650,200,1,100)
+      createPlatform(800,200,10,100)
+      createPlatform(650,200,10,100)
       createPlatform(500,100,1,200)
       createPlatform(502,200,1,10)
       createPlatform(400,0,100,100)
-      createPlatform(600,100,380,1)
+      createPlatform(600,85,380,1)
       createPlatform(1100,100,100,1)
       createPlatform(1050,170,3,3)
       createPlatform(1200,100,1,450)
       createPlatform(1390,0,1,700)
       createPlatform(1100,690,10,10)
       createPlatform(900,499,300,1)
+      createPlatform(600,300,100,10)
 
     
     // TODO 2
@@ -97,7 +98,7 @@ $(function () {
 
       createCollectable('database',860,400,10,0)
       createCollectable('database',45,630,10,0)
-      createCollectable('database',800,50,10,0)
+      createCollectable('database',800,0,10,0)
       createCollectable('database',1280,370,0,0)
 
 
